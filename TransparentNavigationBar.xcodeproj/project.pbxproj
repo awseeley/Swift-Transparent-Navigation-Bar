@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18D13F511C6B0F2F00818E30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D13F501C6B0F2F00818E30 /* AppDelegate.swift */; };
+		18D13F531C6B0F2F00818E30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D13F521C6B0F2F00818E30 /* ViewController.swift */; };
+		18D13F561C6B0F2F00818E30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D13F541C6B0F2F00818E30 /* Main.storyboard */; };
+		18D13F581C6B0F2F00818E30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D13F571C6B0F2F00818E30 /* Assets.xcassets */; };
+		18D13F5B1C6B0F2F00818E30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D13F591C6B0F2F00818E30 /* LaunchScreen.storyboard */; };
+		18D13F661C6B0F2F00818E30 /* TransparentNavigationBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D13F651C6B0F2F00818E30 /* TransparentNavigationBarTests.swift */; };
+		18D13F711C6B0F2F00818E30 /* TransparentNavigationBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D13F701C6B0F2F00818E30 /* TransparentNavigationBarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18D13F621C6B0F2F00818E30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18D13F451C6B0F2F00818E30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18D13F4C1C6B0F2F00818E30;
+			remoteInfo = TransparentNavigationBar;
+		};
+		18D13F6D1C6B0F2F00818E30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18D13F451C6B0F2F00818E30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18D13F4C1C6B0F2F00818E30;
+			remoteInfo = TransparentNavigationBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18D13F4D1C6B0F2F00818E30 /* TransparentNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransparentNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D13F501C6B0F2F00818E30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18D13F521C6B0F2F00818E30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18D13F551C6B0F2F00818E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18D13F571C6B0F2F00818E30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18D13F5A1C6B0F2F00818E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18D13F5C1C6B0F2F00818E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D13F611C6B0F2F00818E30 /* TransparentNavigationBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransparentNavigationBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D13F651C6B0F2F00818E30 /* TransparentNavigationBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentNavigationBarTests.swift; sourceTree = "<group>"; };
+		18D13F671C6B0F2F00818E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D13F6C1C6B0F2F00818E30 /* TransparentNavigationBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransparentNavigationBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D13F701C6B0F2F00818E30 /* TransparentNavigationBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentNavigationBarUITests.swift; sourceTree = "<group>"; };
+		18D13F721C6B0F2F00818E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D13F4A1C6B0F2F00818E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D13F5E1C6B0F2F00818E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D13F691C6B0F2F00818E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D13F441C6B0F2F00818E30 = {
+			isa = PBXGroup;
+			children = (
+				18D13F4F1C6B0F2F00818E30 /* TransparentNavigationBar */,
+				18D13F641C6B0F2F00818E30 /* TransparentNavigationBarTests */,
+				18D13F6F1C6B0F2F00818E30 /* TransparentNavigationBarUITests */,
+				18D13F4E1C6B0F2F00818E30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18D13F4E1C6B0F2F00818E30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D13F4D1C6B0F2F00818E30 /* TransparentNavigationBar.app */,
+				18D13F611C6B0F2F00818E30 /* TransparentNavigationBarTests.xctest */,
+				18D13F6C1C6B0F2F00818E30 /* TransparentNavigationBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D13F4F1C6B0F2F00818E30 /* TransparentNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				18D13F501C6B0F2F00818E30 /* AppDelegate.swift */,
+				18D13F521C6B0F2F00818E30 /* ViewController.swift */,
+				18D13F541C6B0F2F00818E30 /* Main.storyboard */,
+				18D13F571C6B0F2F00818E30 /* Assets.xcassets */,
+				18D13F591C6B0F2F00818E30 /* LaunchScreen.storyboard */,
+				18D13F5C1C6B0F2F00818E30 /* Info.plist */,
+			);
+			path = TransparentNavigationBar;
+			sourceTree = "<group>";
+		};
+		18D13F641C6B0F2F00818E30 /* TransparentNavigationBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				18D13F651C6B0F2F00818E30 /* TransparentNavigationBarTests.swift */,
+				18D13F671C6B0F2F00818E30 /* Info.plist */,
+			);
+			path = TransparentNavigationBarTests;
+			sourceTree = "<group>";
+		};
+		18D13F6F1C6B0F2F00818E30 /* TransparentNavigationBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18D13F701C6B0F2F00818E30 /* TransparentNavigationBarUITests.swift */,
+				18D13F721C6B0F2F00818E30 /* Info.plist */,
+			);
+			path = TransparentNavigationBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D13F4C1C6B0F2F00818E30 /* TransparentNavigationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D13F751C6B0F2F00818E30 /* Build configuration list for PBXNativeTarget "TransparentNavigationBar" */;
+			buildPhases = (
+				18D13F491C6B0F2F00818E30 /* Sources */,
+				18D13F4A1C6B0F2F00818E30 /* Frameworks */,
+				18D13F4B1C6B0F2F00818E30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransparentNavigationBar;
+			productName = TransparentNavigationBar;
+			productReference = 18D13F4D1C6B0F2F00818E30 /* TransparentNavigationBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18D13F601C6B0F2F00818E30 /* TransparentNavigationBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D13F781C6B0F2F00818E30 /* Build configuration list for PBXNativeTarget "TransparentNavigationBarTests" */;
+			buildPhases = (
+				18D13F5D1C6B0F2F00818E30 /* Sources */,
+				18D13F5E1C6B0F2F00818E30 /* Frameworks */,
+				18D13F5F1C6B0F2F00818E30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18D13F631C6B0F2F00818E30 /* PBXTargetDependency */,
+			);
+			name = TransparentNavigationBarTests;
+			productName = TransparentNavigationBarTests;
+			productReference = 18D13F611C6B0F2F00818E30 /* TransparentNavigationBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18D13F6B1C6B0F2F00818E30 /* TransparentNavigationBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D13F7B1C6B0F2F00818E30 /* Build configuration list for PBXNativeTarget "TransparentNavigationBarUITests" */;
+			buildPhases = (
+				18D13F681C6B0F2F00818E30 /* Sources */,
+				18D13F691C6B0F2F00818E30 /* Frameworks */,
+				18D13F6A1C6B0F2F00818E30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18D13F6E1C6B0F2F00818E30 /* PBXTargetDependency */,
+			);
+			name = TransparentNavigationBarUITests;
+			productName = TransparentNavigationBarUITests;
+			productReference = 18D13F6C1C6B0F2F00818E30 /* TransparentNavigationBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D13F451C6B0F2F00818E30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Seemu;
+				TargetAttributes = {
+					18D13F4C1C6B0F2F00818E30 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					18D13F601C6B0F2F00818E30 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 18D13F4C1C6B0F2F00818E30;
+					};
+					18D13F6B1C6B0F2F00818E30 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 18D13F4C1C6B0F2F00818E30;
+					};
+				};
+			};
+			buildConfigurationList = 18D13F481C6B0F2F00818E30 /* Build configuration list for PBXProject "TransparentNavigationBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18D13F441C6B0F2F00818E30;
+			productRefGroup = 18D13F4E1C6B0F2F00818E30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D13F4C1C6B0F2F00818E30 /* TransparentNavigationBar */,
+				18D13F601C6B0F2F00818E30 /* TransparentNavigationBarTests */,
+				18D13F6B1C6B0F2F00818E30 /* TransparentNavigationBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D13F4B1C6B0F2F00818E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D13F5B1C6B0F2F00818E30 /* LaunchScreen.storyboard in Resources */,
+				18D13F581C6B0F2F00818E30 /* Assets.xcassets in Resources */,
+				18D13F561C6B0F2F00818E30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D13F5F1C6B0F2F00818E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D13F6A1C6B0F2F00818E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D13F491C6B0F2F00818E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D13F531C6B0F2F00818E30 /* ViewController.swift in Sources */,
+				18D13F511C6B0F2F00818E30 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D13F5D1C6B0F2F00818E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D13F661C6B0F2F00818E30 /* TransparentNavigationBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D13F681C6B0F2F00818E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D13F711C6B0F2F00818E30 /* TransparentNavigationBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18D13F631C6B0F2F00818E30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18D13F4C1C6B0F2F00818E30 /* TransparentNavigationBar */;
+			targetProxy = 18D13F621C6B0F2F00818E30 /* PBXContainerItemProxy */;
+		};
+		18D13F6E1C6B0F2F00818E30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18D13F4C1C6B0F2F00818E30 /* TransparentNavigationBar */;
+			targetProxy = 18D13F6D1C6B0F2F00818E30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18D13F541C6B0F2F00818E30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D13F551C6B0F2F00818E30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18D13F591C6B0F2F00818E30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D13F5A1C6B0F2F00818E30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18D13F731C6B0F2F00818E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18D13F741C6B0F2F00818E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18D13F761C6B0F2F00818E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TransparentNavigationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Seemu.TransparentNavigationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18D13F771C6B0F2F00818E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TransparentNavigationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Seemu.TransparentNavigationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18D13F791C6B0F2F00818E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TransparentNavigationBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Seemu.TransparentNavigationBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TransparentNavigationBar.app/TransparentNavigationBar";
+			};
+			name = Debug;
+		};
+		18D13F7A1C6B0F2F00818E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TransparentNavigationBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Seemu.TransparentNavigationBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TransparentNavigationBar.app/TransparentNavigationBar";
+			};
+			name = Release;
+		};
+		18D13F7C1C6B0F2F00818E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TransparentNavigationBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Seemu.TransparentNavigationBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TransparentNavigationBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		18D13F7D1C6B0F2F00818E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TransparentNavigationBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Seemu.TransparentNavigationBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TransparentNavigationBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D13F481C6B0F2F00818E30 /* Build configuration list for PBXProject "TransparentNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D13F731C6B0F2F00818E30 /* Debug */,
+				18D13F741C6B0F2F00818E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D13F751C6B0F2F00818E30 /* Build configuration list for PBXNativeTarget "TransparentNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D13F761C6B0F2F00818E30 /* Debug */,
+				18D13F771C6B0F2F00818E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18D13F781C6B0F2F00818E30 /* Build configuration list for PBXNativeTarget "TransparentNavigationBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D13F791C6B0F2F00818E30 /* Debug */,
+				18D13F7A1C6B0F2F00818E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18D13F7B1C6B0F2F00818E30 /* Build configuration list for PBXNativeTarget "TransparentNavigationBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D13F7C1C6B0F2F00818E30 /* Debug */,
+				18D13F7D1C6B0F2F00818E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18D13F451C6B0F2F00818E30 /* Project object */;
+}
