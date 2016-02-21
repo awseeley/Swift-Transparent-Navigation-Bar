@@ -1,7 +1,7 @@
 Swift Transparent Navigation Bar Tutorial
 ==============================
 
-Source code on adding in app purchases in Swift. Using Xcode 6.
+Source code on making a transparent Navigation Bar in Swift Using Xcode 6.
 
 Tutorial:
 
